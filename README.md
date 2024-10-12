@@ -1,37 +1,34 @@
-# PDF-Chatbot Project Documentation
+# **PDF-Chatbot:**
 
 ## Overview
 
 This project is a PDF-based chatbot application built using Streamlit, Langchain, and Ollama. It allows users to upload a PDF document, and then ask questions about the content of the document. The application uses a vector database (Chroma) to store embeddings of the PDF text, enabling efficient retrieval of relevant information for answering user queries.
 
-## Deployment
+## Installation
 
-The application can be deployed using Streamlit.  To run the application locally, navigate to the project directory in your terminal and run:
+1.Install Ollama
+
+[install Ollama](https://ollama.com/)
+
+2.Clone this repository:
+```
+ git clone https://github.com/sanjayram-a/PDF-Chatbot.git
+```
+3.Install the necessary libraries:
+```
+pip install -r requirement.txt
+```
+4.To run
+```
 streamlit run app.py
-
+```
 
 ## Features
 
 * *PDF Upload:* Users can upload PDF files for querying.
 * *Question Answering:*  The application answers questions based on the uploaded PDF content.
-* *AI-powered fallback:* If the question cannot be answered from the PDF, it falls back to a general AI model.
 * *Session Management:*  The application manages sessions to handle multiple users and clean up temporary files after inactivity.
 
-### Dependencies
-
-The project uses the following Python libraries:
-
-chromadb==0.5.5
-Flask==3.0.3
-langchain==0.3.0
-langchain-community==0.3.0
-langchain-core==0.3.0
-langchain-ollama==0.2.0
-langchain-text-splitters==0.3.0
-ollama==0.3.3
-streamlit==1.39
-
-These can be installed using pip install -r requirements.txt.
 
 
 ### Architecture
@@ -60,6 +57,6 @@ The application creates temporary folders and files to store uploaded PDFs and t
 
 ## Future Improvements
 
-* Implement more robust error handling.
+* Working on to delete temporary folders when user exits. 
 * Add support for other document formats.
 * Improve the user interface.
