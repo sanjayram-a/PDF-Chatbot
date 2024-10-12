@@ -1,4 +1,4 @@
-# **PDF-Chatbot: Whuch Runs Locally on your Machine(No API Required)**
+# **PDF-Chatbot: Which Runs Locally on your Machine(No API Required)**
 
 ## Overview
 
