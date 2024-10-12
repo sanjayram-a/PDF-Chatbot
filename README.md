@@ -4,17 +4,18 @@
 
 This project is a PDF-based chatbot application built using Streamlit, Langchain, and Ollama. It allows users to upload a PDF document, and then ask questions about the content of the document. The application uses a vector database (Chroma) to store embeddings of the PDF text, enabling efficient retrieval of relevant information for answering user queries.
 
+## Deployment
+
+The application can be deployed using Streamlit.  To run the application locally, navigate to the project directory in your terminal and run:
+streamlit run app.py
+
+
 ## Features
 
 * *PDF Upload:* Users can upload PDF files for querying.
 * *Question Answering:*  The application answers questions based on the uploaded PDF content.
 * *AI-powered fallback:* If the question cannot be answered from the PDF, it falls back to a general AI model.
 * *Session Management:*  The application manages sessions to handle multiple users and clean up temporary files after inactivity.
-
-## Deployment
-
-The application can be deployed using Streamlit.  To run the application locally, navigate to the project directory in your terminal and run:
-streamlit run app.py
 
 ### Dependencies
 
