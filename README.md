@@ -1,4 +1,4 @@
-# **PDF-Chatbot:**
+# **PDF-Chatbot: Whuch Runs Locally on your Machine(No API Required)**
 
 ## Overview
 
@@ -6,18 +6,30 @@ This project is a PDF-based chatbot application built using Streamlit, Langchain
 
 ## Installation
 
-1.Install Ollama
+1.Create a virtual environment
+```
+python -m venv env
+```
+2.Activate the environment
+```
+env\Scripts\activate
+```
+3.Install Ollama
 
 [install Ollama](https://ollama.com/)
 
-2.Clone this repository:
+4.Clone this repository:
 ```
  git clone https://github.com/sanjayram-a/PDF-Chatbot.git
 ```
-3.Install the necessary libraries:
+5.Install the necessary libraries:
 ```
 pip install -r requirement.txt
 ```
+6.To install Necessary Models(Optional)
+ ``` 
+ install.bat
+ ```
 4.To run
 ```
 streamlit run app.py
