@@ -1,7 +1,6 @@
-chromadb==0.5.5
 langchain==0.3.0
 langchain-community==0.3.0
-langchain-chroma==0.1.4
+langchain-chroma
 langchain-core==0.3.0
 langchain-ollama==0.2.0
 langchain-text-splitters==0.3.0
