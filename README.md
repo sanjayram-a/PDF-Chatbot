@@ -14,10 +14,7 @@ python -m venv env
 ```
 env\Scripts\activate
 ```
-3.Install Ollama
-
-[install Ollama](https://ollama.com/)
-
+3.[install Ollama](https://ollama.com/)
 4.Clone this repository:
 ```
  git clone https://github.com/sanjayram-a/PDF-Chatbot.git
@@ -30,7 +27,7 @@ pip install -r requirement.txt
  ``` 
  install.bat
  ```
-4.To run
+7.To run
 ```
 streamlit run app.py
 ```
